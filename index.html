@@ -2,25 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>GifTastic</title>
+    <title>GifTastic Super-Heroes</title>
+    <!-- external js link -->
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- css link  -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 
+    
 </head>
 
 <body>
+    <!-- referencing 6.3 class activities -->
+    <div data-hero="marvel">Marvel SuperHeroes</div>
+    <div data-hero="dc">DC SuperHeroes</div>
+    <div id="gifs-appear-here"></div>
+    
     <div id="button"></div>
     <form id="search-form">
         <label for="search-input">GifTastic Search!</label>
         <input type="text" id="search-input">
         <input type="submit" value="Submit">
     </form>
-        
-
-    <!-- external js link -->
-    <script src="assets/javascript/app.js" type="text/javascript></script>
+    
+    <div id="searches"></div>
+    
 </body>
 
 
